@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-08T16:24:30.028Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="MzUfR1YASqgI6bm1CkGo" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-09T16:18:34.147Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="isfRgVDpCw1a3dxy_BtA" version="22.1.17" type="github">
   <diagram name="第 1 页" id="c95XdeGHIcxeJzbNYyKY">
-    <mxGraphModel dx="835" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1002" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -208,7 +208,7 @@
         <mxCell id="Mg03XxLFkvm5AcdXAGYh-98" value="本地内存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="130" y="305" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Mg03XxLFkvm5AcdXAGYh-100" value="远端内存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="1" vertex="1">
+        <mxCell id="Mg03XxLFkvm5AcdXAGYh-100" value="内存后端" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="130" y="465" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Mg03XxLFkvm5AcdXAGYh-106" value="" style="group;fontSize=12;" parent="1" vertex="1" connectable="0">
@@ -220,7 +220,7 @@
         <mxCell id="Mg03XxLFkvm5AcdXAGYh-104" value="虚拟CPU" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="Mg03XxLFkvm5AcdXAGYh-106" vertex="1">
           <mxGeometry x="20" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wQiLIVJVLQcig5w3O7Gj-20" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;fontSize=12;" vertex="1" parent="Mg03XxLFkvm5AcdXAGYh-106">
+        <mxCell id="wQiLIVJVLQcig5w3O7Gj-20" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;fontSize=12;" parent="Mg03XxLFkvm5AcdXAGYh-106" vertex="1">
           <mxGeometry x="-10" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Mg03XxLFkvm5AcdXAGYh-109" value="" style="group;fontSize=12;" parent="1" vertex="1" connectable="0">
@@ -232,34 +232,34 @@
         <mxCell id="Mg03XxLFkvm5AcdXAGYh-108" value="本地内存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="Mg03XxLFkvm5AcdXAGYh-109" vertex="1">
           <mxGeometry x="14" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wQiLIVJVLQcig5w3O7Gj-6" value="" style="group;fontSize=12;" vertex="1" connectable="0" parent="1">
+        <mxCell id="wQiLIVJVLQcig5w3O7Gj-6" value="" style="group;fontSize=12;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="260" y="160" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wQiLIVJVLQcig5w3O7Gj-1" value="S" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="wQiLIVJVLQcig5w3O7Gj-6">
+        <mxCell id="wQiLIVJVLQcig5w3O7Gj-1" value="S" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;" parent="wQiLIVJVLQcig5w3O7Gj-6" vertex="1">
           <mxGeometry y="6.25" width="25" height="17.5" as="geometry" />
         </mxCell>
-        <mxCell id="wQiLIVJVLQcig5w3O7Gj-5" value="内存后端切换器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="wQiLIVJVLQcig5w3O7Gj-6">
+        <mxCell id="wQiLIVJVLQcig5w3O7Gj-5" value="内存后端切换器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="wQiLIVJVLQcig5w3O7Gj-6" vertex="1">
           <mxGeometry x="15" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wQiLIVJVLQcig5w3O7Gj-10" value="" style="group;fontSize=12;" vertex="1" connectable="0" parent="1">
+        <mxCell id="wQiLIVJVLQcig5w3O7Gj-10" value="" style="group;fontSize=12;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="421" y="130" width="94" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wQiLIVJVLQcig5w3O7Gj-11" value="B" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;" vertex="1" parent="wQiLIVJVLQcig5w3O7Gj-10">
+        <mxCell id="wQiLIVJVLQcig5w3O7Gj-11" value="B" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;" parent="wQiLIVJVLQcig5w3O7Gj-10" vertex="1">
           <mxGeometry y="5" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wQiLIVJVLQcig5w3O7Gj-12" value="后端选择" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="wQiLIVJVLQcig5w3O7Gj-10">
+        <mxCell id="wQiLIVJVLQcig5w3O7Gj-12" value="后端选择" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="wQiLIVJVLQcig5w3O7Gj-10" vertex="1">
           <mxGeometry x="14" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wQiLIVJVLQcig5w3O7Gj-19" value="" style="group;fontSize=12;" vertex="1" connectable="0" parent="1">
+        <mxCell id="wQiLIVJVLQcig5w3O7Gj-19" value="" style="group;fontSize=12;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="385" y="160" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wQiLIVJVLQcig5w3O7Gj-17" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;" edge="1" parent="wQiLIVJVLQcig5w3O7Gj-19">
+        <mxCell id="wQiLIVJVLQcig5w3O7Gj-17" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;" parent="wQiLIVJVLQcig5w3O7Gj-19" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint y="14.659999999999997" as="sourcePoint" />
             <mxPoint x="25" y="14.659999999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wQiLIVJVLQcig5w3O7Gj-18" value="数据流动" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="wQiLIVJVLQcig5w3O7Gj-19">
+        <mxCell id="wQiLIVJVLQcig5w3O7Gj-18" value="数据流动" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="wQiLIVJVLQcig5w3O7Gj-19" vertex="1">
           <mxGeometry x="20" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
