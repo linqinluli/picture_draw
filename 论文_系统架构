@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-26T02:26:52.860Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="jbiDIybF8Se8vhH4ud35" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-26T02:32:26.167Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="VJc5SX5-PJz-BfSBnLi2" version="22.1.21" type="github">
   <diagram name="第 1 页" id="JyfFjGAexfhLY6njlDLw">
     <mxGraphModel dx="1359" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -407,14 +407,14 @@
             <mxPoint x="605.55" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uPMEbeKTUu_oUjLYjidu-94" value="Local storage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="402.5" y="45" width="60" height="30" as="geometry" />
+        <mxCell id="uPMEbeKTUu_oUjLYjidu-94" value="Single local storage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="402.5" y="45" width="77.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uPMEbeKTUu_oUjLYjidu-95" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="500" y="33.75" width="50" height="52.5" as="geometry" />
         </mxCell>
-        <mxCell id="uPMEbeKTUu_oUjLYjidu-96" value="Cloud&lt;br&gt;Storage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="560" y="45" width="60" height="30" as="geometry" />
+        <mxCell id="uPMEbeKTUu_oUjLYjidu-96" value="Single cloud storage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="45" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
