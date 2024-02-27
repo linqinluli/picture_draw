@@ -1,9 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2024-02-27T08:38:17.759Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="23.1.6" etag="iAOHXJuvshRx20Pys_Kf" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-27T09:00:53.453Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="48X-Go1FoZ1R9p4GzH8S" version="23.1.6" type="github">
   <diagram name="第 1 页" id="QZUPrX_TWS5uGRgK0gak">
-    <mxGraphModel>
+    <mxGraphModel dx="819" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5PQLWXWCwuNH8t1XqFt1-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="830" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5PQLWXWCwuNH8t1XqFt1-3" value="Memory&lt;br&gt;Node&lt;br&gt;1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="850" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5PQLWXWCwuNH8t1XqFt1-4" value="Memory&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Node&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="850" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5PQLWXWCwuNH8t1XqFt1-6" value="Memory&lt;br&gt;Node&lt;br&gt;3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="850" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5PQLWXWCwuNH8t1XqFt1-7" value="Memory&lt;br&gt;Node&lt;br&gt;n" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="850" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5PQLWXWCwuNH8t1XqFt1-8" value="Memmory Pool" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="409" y="827" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5PQLWXWCwuNH8t1XqFt1-9" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;...&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="416" y="860" width="34" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
