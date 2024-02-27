@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-27T09:00:53.453Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="48X-Go1FoZ1R9p4GzH8S" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-27T09:10:55.780Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="mS8q3T8bAtjZax0RT9Zc" version="23.1.6" type="github">
   <diagram name="第 1 页" id="QZUPrX_TWS5uGRgK0gak">
     <mxGraphModel dx="819" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,11 +19,20 @@
         <mxCell id="5PQLWXWCwuNH8t1XqFt1-7" value="Memory&lt;br&gt;Node&lt;br&gt;n" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="850" width="50" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5PQLWXWCwuNH8t1XqFt1-8" value="Memmory Pool" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="409" y="827" width="90" height="30" as="geometry" />
+        <mxCell id="5PQLWXWCwuNH8t1XqFt1-8" value="Memmory Pool Layer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="382" y="834" width="120" height="10" as="geometry" />
         </mxCell>
         <mxCell id="5PQLWXWCwuNH8t1XqFt1-9" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;...&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="416" y="860" width="34" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5PQLWXWCwuNH8t1XqFt1-10" value="Abstraction Layer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="790" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5PQLWXWCwuNH8t1XqFt1-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="700" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5PQLWXWCwuNH8t1XqFt1-12" value="Service Layer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="418" y="703" width="82" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
