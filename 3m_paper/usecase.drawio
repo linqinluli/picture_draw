@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-07T10:37:01.016Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="ig6MMlw5h-HO8vMcNPQA" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-07T10:39:17.629Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="LxXkn4AEZ7vw5DUWNulw" version="24.0.2" type="github">
   <diagram name="第 1 页" id="VfLE5_9_y4Ggnf3BD1qX">
     <mxGraphModel dx="670" dy="441" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -75,6 +75,24 @@
         </mxCell>
         <mxCell id="LlSDbdedQlE04od_okPb-25" value="Applications" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="500" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bLXICvKXGjsoD06LxfyK-2" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="474.71" as="sourcePoint" />
+            <mxPoint x="180" y="474.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bLXICvKXGjsoD06LxfyK-3" value="logic data flow" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="460" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bLXICvKXGjsoD06LxfyK-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="474.71" as="sourcePoint" />
+            <mxPoint x="350" y="474.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bLXICvKXGjsoD06LxfyK-5" value="real data flow" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="460" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
