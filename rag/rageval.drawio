@@ -1,79 +1,97 @@
-<mxfile host="app.diagrams.net" modified="2024-03-29T02:41:09.980Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="eGy17t-PYkYzoXUlqJQi" version="24.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-29T02:43:14.965Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="FzKqWRfB7FohNSuu-qEn" version="24.2.0" type="github">
   <diagram name="第 1 页" id="Sqdw41zdQ13881j1d5oV">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="PACDsi3cajVirednJGtU-1" value="Knowledge" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry y="160" width="120" height="80" as="geometry" />
+          <mxGeometry x="70" y="160" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PACDsi3cajVirednJGtU-2" value="Data&lt;div style=&quot;font-size: 15px;&quot;&gt;Process&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry y="290" width="120" height="80" as="geometry" />
+          <mxGeometry x="70" y="290" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PACDsi3cajVirednJGtU-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="PACDsi3cajVirednJGtU-1" target="PACDsi3cajVirednJGtU-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="350" y="430" as="sourcePoint" />
-            <mxPoint x="400" y="380" as="targetPoint" />
+            <mxPoint x="420" y="430" as="sourcePoint" />
+            <mxPoint x="470" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PACDsi3cajVirednJGtU-4" value="RAG&lt;div style=&quot;font-size: 15px;&quot;&gt;Pipeline&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="320" y="290" width="120" height="80" as="geometry" />
+          <mxGeometry x="390" y="290" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PACDsi3cajVirednJGtU-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="PACDsi3cajVirednJGtU-6" target="PACDsi3cajVirednJGtU-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="229.5" y="220" as="sourcePoint" />
-            <mxPoint x="229.5" y="270" as="targetPoint" />
+            <mxPoint x="299.5" y="220" as="sourcePoint" />
+            <mxPoint x="299.5" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PACDsi3cajVirednJGtU-6" value="Knowledge&lt;div style=&quot;font-size: 15px;&quot;&gt;+question&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="160" y="340" width="120" height="80" as="geometry" />
+          <mxGeometry x="230" y="340" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PACDsi3cajVirednJGtU-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="PACDsi3cajVirednJGtU-2" target="PACDsi3cajVirednJGtU-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="230" y="380" as="sourcePoint" />
-            <mxPoint x="250" y="460" as="targetPoint" />
+            <mxPoint x="300" y="380" as="sourcePoint" />
+            <mxPoint x="320" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PACDsi3cajVirednJGtU-9" value="Knowledge&lt;div style=&quot;font-size: 15px;&quot;&gt;+question&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;+ground truth&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="160" y="240" width="120" height="80" as="geometry" />
+          <mxGeometry x="230" y="240" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PACDsi3cajVirednJGtU-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="PACDsi3cajVirednJGtU-9" target="PACDsi3cajVirednJGtU-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="290" y="380" as="sourcePoint" />
-            <mxPoint x="330" y="340" as="targetPoint" />
+            <mxPoint x="360" y="380" as="sourcePoint" />
+            <mxPoint x="400" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PACDsi3cajVirednJGtU-11" value="Knowledge&lt;div style=&quot;font-size: 15px;&quot;&gt;+question&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;+answer&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="480" y="340" width="120" height="80" as="geometry" />
+          <mxGeometry x="550" y="340" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PACDsi3cajVirednJGtU-12" value="Knowledge&lt;div style=&quot;font-size: 15px;&quot;&gt;+question&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;+ground truth&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;+answer&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="480" y="250" width="120" height="80" as="geometry" />
+          <mxGeometry x="550" y="250" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PACDsi3cajVirednJGtU-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="PACDsi3cajVirednJGtU-4" target="PACDsi3cajVirednJGtU-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="290" y="290" as="sourcePoint" />
-            <mxPoint x="330" y="320" as="targetPoint" />
+            <mxPoint x="360" y="290" as="sourcePoint" />
+            <mxPoint x="400" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PACDsi3cajVirednJGtU-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="PACDsi3cajVirednJGtU-4" target="PACDsi3cajVirednJGtU-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="450" y="320" as="sourcePoint" />
-            <mxPoint x="490" y="300" as="targetPoint" />
+            <mxPoint x="520" y="320" as="sourcePoint" />
+            <mxPoint x="560" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PACDsi3cajVirednJGtU-15" value="RAG&lt;div style=&quot;font-size: 15px;&quot;&gt;Evaluation&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="630" y="290" width="120" height="80" as="geometry" />
+          <mxGeometry x="700" y="290" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PACDsi3cajVirednJGtU-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="PACDsi3cajVirednJGtU-12" target="PACDsi3cajVirednJGtU-15">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="450" y="320" as="sourcePoint" />
-            <mxPoint x="490" y="300" as="targetPoint" />
+            <mxPoint x="520" y="320" as="sourcePoint" />
+            <mxPoint x="560" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PACDsi3cajVirednJGtU-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="PACDsi3cajVirednJGtU-11" target="PACDsi3cajVirednJGtU-15">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="610" y="300" as="sourcePoint" />
-            <mxPoint x="640" y="320" as="targetPoint" />
+            <mxPoint x="680" y="300" as="sourcePoint" />
+            <mxPoint x="710" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PACDsi3cajVirednJGtU-18" value="metric with ground truth" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="870" y="240" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PACDsi3cajVirednJGtU-19" value="metric without ground truth" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="870" y="340" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PACDsi3cajVirednJGtU-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="PACDsi3cajVirednJGtU-15" target="PACDsi3cajVirednJGtU-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="300" as="sourcePoint" />
+            <mxPoint x="710" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PACDsi3cajVirednJGtU-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.017;exitY=0.638;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;exitPerimeter=0;" edge="1" parent="1" source="PACDsi3cajVirednJGtU-15" target="PACDsi3cajVirednJGtU-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="320" as="sourcePoint" />
+            <mxPoint x="880" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
