@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-13T16:55:30.838Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="iECsLW_iscX3H9Dc_wO9" version="24.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-13T16:57:56.005Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="OikCVEtlY4rXzO63xUQw" version="24.3.0" type="github">
   <diagram name="第 1 页" id="VfLE5_9_y4Ggnf3BD1qX">
     <mxGraphModel dx="978" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -79,13 +79,13 @@
         <mxCell id="OuYwRzyxVTaI1I2WvI3m-9" value="Data analysis" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="510.38" y="263" width="107" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="Aw0q3EOBRqiptCxBz17g-10" value="Hot LRU" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;gradientDirection=west;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="Aw0q3EOBRqiptCxBz17g-10" value="Hot LRU" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#c7151e;strokeColor=#b85450;gradientDirection=west;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="218.75" y="510" width="390" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Aw0q3EOBRqiptCxBz17g-11" value="Warm LRU" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fcfcfc;gradientColor=#ffa500;strokeColor=#d79b00;gradientDirection=west;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="218.75" y="560" width="390" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Aw0q3EOBRqiptCxBz17g-12" value="Cold LRU" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;gradientDirection=west;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="Aw0q3EOBRqiptCxBz17g-12" value="Cold LRU" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#004C99;strokeColor=#6c8ebf;gradientDirection=east;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="218" y="610" width="390" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Aw0q3EOBRqiptCxBz17g-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" target="Aw0q3EOBRqiptCxBz17g-10">
