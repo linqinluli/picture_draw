@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" version="24.7.14" pages="5">
   <diagram name="系统结构" id="MvqKiSeDHGqXLZy5wm9k">
-    <mxGraphModel dx="1221" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1018" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -451,7 +451,7 @@
           <mxGeometry x="389" y="450" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HV01C0rR9Ij1h94hieBF-6" value="MEI表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="346" y="372.5" width="42" height="15" as="geometry" />
+          <mxGeometry x="350" y="372.5" width="38" height="15" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -503,7 +503,7 @@
             <mxPoint x="263.12" y="464.71000000000004" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3VtNgSzI8ADQIKUEABn9-29" value="离线构建阶段" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="3VtNgSzI8ADQIKUEABn9-29" value="离线采集阶段" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="185.12" y="270" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3VtNgSzI8ADQIKUEABn9-30" value="在线控制阶段" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -644,19 +644,19 @@
         <mxCell id="xJtCBpKAQwqFWOIeCNKT-34" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;+&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="453" y="381.25" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="xJtCBpKAQwqFWOIeCNKT-35" value="页面&lt;div&gt;大小&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xJtCBpKAQwqFWOIeCNKT-35" value="传输进程数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="416.28000000000003" y="421.25" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="xJtCBpKAQwqFWOIeCNKT-36" value="传输数据大小" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xJtCBpKAQwqFWOIeCNKT-36" value="网络通路数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="471.72" y="421.25" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xJtCBpKAQwqFWOIeCNKT-37" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;+&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="454.22" y="431.25" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="xJtCBpKAQwqFWOIeCNKT-38" value="页面&lt;div&gt;大小&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xJtCBpKAQwqFWOIeCNKT-38" value="NUMA节点数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="417.78000000000003" y="471.25" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="xJtCBpKAQwqFWOIeCNKT-39" value="传输数据大小" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xJtCBpKAQwqFWOIeCNKT-39" value="本地内存比例" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="473.22" y="471.25" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xJtCBpKAQwqFWOIeCNKT-40" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;+&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -717,7 +717,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="BP2HODvUcp4O7a6T85DJ" name="硬件架构">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1408" dy="388" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -730,7 +730,7 @@
         <mxCell id="pKoAEZdvM8iurZ5Z-X4w-3" value="计算单元" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="-680" y="310" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pKoAEZdvM8iurZ5Z-X4w-4" value="内核 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
+        <mxCell id="pKoAEZdvM8iurZ5Z-X4w-4" value="交换单元1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
           <mxGeometry x="-680" y="340" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pKoAEZdvM8iurZ5Z-X4w-9" value="固态硬盘" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -775,7 +775,7 @@
         <mxCell id="Ho-zsWt69HVIcjDhNfYH-2" value="计算单元" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="-610" y="310" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ho-zsWt69HVIcjDhNfYH-3" value="内核 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
+        <mxCell id="Ho-zsWt69HVIcjDhNfYH-3" value="交换单元2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
           <mxGeometry x="-610" y="340" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ho-zsWt69HVIcjDhNfYH-4" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.512;entryY=1.06;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.38;exitY=0.017;exitDx=0;exitDy=0;exitPerimeter=0;width=9.403973509933776;startSize=3.471523178807947;endSize=3.8145695364238414;" edge="1" parent="1">
@@ -787,7 +787,7 @@
         <mxCell id="Ho-zsWt69HVIcjDhNfYH-5" value="计算单元" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="-540" y="310" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ho-zsWt69HVIcjDhNfYH-6" value="内核 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
+        <mxCell id="Ho-zsWt69HVIcjDhNfYH-6" value="交换单元3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
           <mxGeometry x="-540" y="340" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ho-zsWt69HVIcjDhNfYH-7" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.512;entryY=1.06;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.38;exitY=0.017;exitDx=0;exitDy=0;exitPerimeter=0;width=9.403973509933776;startSize=3.471523178807947;endSize=3.8145695364238414;" edge="1" parent="1">
@@ -816,6 +816,9 @@
         </mxCell>
         <mxCell id="Ho-zsWt69HVIcjDhNfYH-12" value="内存交换后端参数调整进程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-480" y="370" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dTHxAG1TIutxaosYJOj8-1" value="RDMA网络" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="470" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -861,7 +864,7 @@
         <mxCell id="77o3CbmC6N6E92zrjI09-11" value="切换执行单元交换后端" style="whiteSpace=wrap;html=1;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="480" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="77o3CbmC6N6E92zrjI09-12" value="查询最佳内切换后端" style="whiteSpace=wrap;html=1;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="77o3CbmC6N6E92zrjI09-12" value="查询最佳内存交换后端" style="whiteSpace=wrap;html=1;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="380" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="77o3CbmC6N6E92zrjI09-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=20;" edge="1" parent="1" source="77o3CbmC6N6E92zrjI09-12" target="77o3CbmC6N6E92zrjI09-1">
