@@ -293,10 +293,16 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Jc6-VBMiXrU24Lz6uG4X" name="后端控制模块">
-    <mxGraphModel dx="625" dy="360" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="488" dy="326" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HV01C0rR9Ij1h94hieBF-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="310" width="70" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="HV01C0rR9Ij1h94hieBF-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="250" width="250" height="200" as="geometry" />
+        </mxCell>
         <mxCell id="AlyR_ffvRQ8Dk8O19ewI-25" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="260" width="40" height="40" as="geometry" />
         </mxCell>
@@ -410,15 +416,15 @@
         </mxCell>
         <mxCell id="AlyR_ffvRQ8Dk8O19ewI-57" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="320" y="240" as="sourcePoint" />
-            <mxPoint x="320" y="470" as="targetPoint" />
+            <mxPoint x="369.1" y="230" as="sourcePoint" />
+            <mxPoint x="366.90000000000003" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AlyR_ffvRQ8Dk8O19ewI-58" value="离线构建阶段" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="185" y="440" width="90" height="30" as="geometry" />
+          <mxGeometry x="230" y="220" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AlyR_ffvRQ8Dk8O19ewI-59" value="在线控制阶段" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="346" y="440" width="90" height="30" as="geometry" />
+          <mxGeometry x="380" y="220" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AlyR_ffvRQ8Dk8O19ewI-60" value="应用分配模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="414" y="320" width="40" height="50" as="geometry" />
@@ -438,16 +444,22 @@
             <mxPoint x="411" y="414.8" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="HV01C0rR9Ij1h94hieBF-2" value="MEI表构建模块" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="450" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HV01C0rR9Ij1h94hieBF-5" value="后端控制模块" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="389" y="450" width="90" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="PjxiED7I_ohO1gBifOAh" name="参数调整模块">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="581" dy="388" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="xJtCBpKAQwqFWOIeCNKT-42" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="350" y="300" width="180" height="50" as="geometry" />
+          <mxGeometry x="350" y="300" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xJtCBpKAQwqFWOIeCNKT-22" value="离线&lt;div&gt;应用&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=none;noLabel=1;" vertex="1" parent="1">
           <mxGeometry x="283.17999999999995" y="320" width="34.94" height="40" as="geometry" />
@@ -492,7 +504,7 @@
           <mxGeometry x="185.12" y="270" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3VtNgSzI8ADQIKUEABn9-30" value="在线控制阶段" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="400" y="270" width="90" height="30" as="geometry" />
+          <mxGeometry x="387.5" y="270" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3VtNgSzI8ADQIKUEABn9-31" value="数据碎片比例" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280.06" y="371.25" width="40" height="40" as="geometry" />
@@ -570,13 +582,13 @@
           <mxGeometry x="280.06" y="471.25" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xJtCBpKAQwqFWOIeCNKT-7" value="应用特征表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="255.06" y="518" width="90" height="30" as="geometry" />
+          <mxGeometry x="192.06" y="495" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xJtCBpKAQwqFWOIeCNKT-8" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="409" y="364.5" width="113" height="153.5" as="geometry" />
+          <mxGeometry x="345" y="364.5" width="175" height="153.5" as="geometry" />
         </mxCell>
-        <mxCell id="xJtCBpKAQwqFWOIeCNKT-9" value="内存交换通路" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="420.5" y="518" width="90" height="30" as="geometry" />
+        <mxCell id="xJtCBpKAQwqFWOIeCNKT-9" value="内存交换通路控制模块" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370.31" y="518" width="129.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xJtCBpKAQwqFWOIeCNKT-10" value="数据&lt;div&gt;粒度&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="371.25" width="40" height="40" as="geometry" />
@@ -691,6 +703,12 @@
             <mxPoint x="391.28000000000003" y="491.08" as="sourcePoint" />
             <mxPoint x="416.28000000000003" y="491.08" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ppvgCqpPXpySf9SbBRgI-1" value="访存特征采集模块" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="179.94" y="518" width="110.06" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ppvgCqpPXpySf9SbBRgI-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140.12" y="310" width="199.88" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
